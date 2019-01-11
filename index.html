@@ -1,0 +1,115 @@
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" 
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <title>Universe</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="img/space.png" alt="" class="logo" />
+            <i class="fas fa-bars"></i>
+            <ul class="menu">
+                <li><a href="#">Terra</a></li>
+                <li><a href="#">Júpiter</a></li>
+                <li><a href="#">Saturno</a></li>
+                <li><a href="#">Netuno</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+
+    <section>
+       <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-6 text">
+             <h2>Hello World!!</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+             Quo, ipsum voluptas! Deleniti quis consequuntur officiis 
+             libero vitae soluta laudantium assumenda atque delectus 
+             reprehenderit voluptatum minima,
+             expedita exercitationem sed sequi? Magni!</p>
+             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+             Quo, ipsum voluptas! Deleniti quis consequuntur officiis 
+             libero vitae soluta laudantium assumenda atque delectus 
+             reprehenderit voluptatum minima,
+             expedita exercitationem sed sequi? Magni!</p>
+            </div>
+             <div class="col-sm-12 col-md-6 col-lg-6">
+              <img src="img/terra.png" alt="" class="terra" />
+              <img src="img/moon.png" alt="" class="moon" />
+            
+            </div>
+        </div>     
+        </div>
+    </section>
+    
+    <footer>
+        <div class="rodape">
+            <div class="row">
+                <div class="col-sm-12 col-md-4 col-lg-4 ff">
+                        <i class="fas fa-balance-scale bl"></i>
+                   <h5> consectetur adipisicing elit.</h5>
+                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                   Quo</p>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 ff">
+                        <i class="fas fa-balance-scale bl"></i>
+                  <h5> consectetur adipisicing elit.</h5>
+                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                   Quo</p>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 ff">
+                        <i class="fas fa-balance-scale bl"></i>
+                  <h5>consectetur adipisicing elit.</h5>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                   Quos</p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-4 col-lg-4 space">
+           <img src="img/space.png" alt="" />
+       </div>
+       <div class="col-sm-12 col-md-4 col-lg-4 spc">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+             Quo, ipsum voluptas! Deleniti quis consequuntur officiis 
+             libero vitae soluta laudantium assumenda atque delectus 
+             reprehenderit voluptatum minima,
+             expedita exercitationem sed sequi? Magni!</p>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4 spc">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+             Quo, ipsum voluptas! Deleniti quis consequuntur officiis 
+             libero vitae soluta laudantium assumenda atque delectus 
+             reprehenderit voluptatum minima,
+             expedita exercitationem sed sequi? Magni!</p>
+       </div>
+      </div>
+      </div>
+    </footer>
+    <div class="directs">
+        <center><h6>Layout desenvolvido para o repositório GITHUB | Guilherme Luiz</h6></center>
+    </div>
+    <script>
+           $(document).ready(function(){
+           let button = $('nav');
+
+           $(window).scroll(function(){
+            if($(this).scrollTop() >=700){
+              button.addClass('fixed').fadeIn('slow')
+             }else{
+              button.removeClass('fixed').hide().fadeIn('fast')
+             }
+           });
+       });
+    </script>
+</body>
+</html>
